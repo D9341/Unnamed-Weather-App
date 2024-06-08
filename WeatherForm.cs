@@ -15,6 +15,7 @@ namespace Unnamed_Weather_App
         public WeatherForm()
         {
             InitializeComponent();
+            cbCitySelect.DataSource = Admin.FetchCities();
         }
     }
 }

@@ -29,7 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WeatherForm));
+            this.cbCitySelect = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
+            // 
+            // cbCitySelect
+            // 
+            this.cbCitySelect.FormattingEnabled = true;
+            this.cbCitySelect.Location = new System.Drawing.Point(200, 20);
+            this.cbCitySelect.Name = "cbCitySelect";
+            this.cbCitySelect.Size = new System.Drawing.Size(500, 33);
+            this.cbCitySelect.TabIndex = 0;
             // 
             // WeatherForm
             // 
@@ -38,10 +47,12 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(882, 553);
+            this.Controls.Add(this.cbCitySelect);
             this.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.MaximizeBox = false;
             this.Name = "WeatherForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Unnamed Weather App";
@@ -50,5 +61,7 @@
         }
 
         #endregion
+
+        private ComboBox cbCitySelect;
     }
 }
