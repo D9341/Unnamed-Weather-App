@@ -4,7 +4,14 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net;
+using System.IO;
+using System.Web;
+using System.Text.Json;
+using System.Runtime.Serialization.Json;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace Unnamed_Weather_App
 {
@@ -14,7 +21,23 @@ namespace Unnamed_Weather_App
         public static string apiKey = "8d01ea4154ae0c796aa21af303777837";
         public static string localDataPath = "data/local.txt";
         public static string accountDataPath = "data/acc.txt";
+        public static string forecastDataPath = "data/forecast.json";
         public static string user = "";
+
+        // Weather variables
+        public static float temperature = 0f;
+        public static float feelsLike = 0f;
+        public static float minTemperature = 0f;
+        public static float maxTemperature = 0f;
+        public static int pressure = 0;
+        public static int pressureSeaLevel = 0;
+        public static int pressureGroundLevel = 0;
+        public static int humidity = 0;
+        public static int clouds = 0;
+        public static int visibility = 0;
+        public static float windSpeed = 0f;
+        public static float windGusts = 0f;
+        public static float windDirection = 0f;
 
         // Account management
         public static bool LogIn(string username, string password) {
@@ -79,6 +102,23 @@ namespace Unnamed_Weather_App
             writer.WriteLine(name + "|" + id);
             writer.Close();
             return;
+        }
+
+        // Weather data management
+        public static List<string> FetchWeatherData(int _cityID, string _apiKey) {
+            WebClient client = new WebClient();
+            client.DownloadFile("https://api.openweathermap.org/data/2.5/forecast?id=" + _cityID + "&appid=" + _apiKey, forecastDataPath);
+
+            StreamReader reader = new StreamReader(forecastDataPath);
+            string json = reader.ReadToEnd();
+            reader.Close();
+
+            /*List<Main> mainData = JsonConvert.DeserializeObject<List<Main>>(json);
+            List<Clouds> cloudData = JsonConvert.DeserializeObject<List<Clouds>>(json);
+            List<List> visibilityData = JsonConvert.DeserializeObject<List<List>>(json);
+            List<Wind> windData = JsonConvert.DeserializeObject<List<Wind>>(json);*/
+
+            return new List<string>();
         }
     }
 }

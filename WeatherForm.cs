@@ -17,5 +17,15 @@ namespace Unnamed_Weather_App
             InitializeComponent();
             cbCitySelect.DataSource = Admin.FetchCities();
         }
+
+        private void cbCitySelect_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string[] cityData = cbCitySelect.Text.Split('|');
+            List<string> data = Admin.FetchWeatherData(int.Parse(cityData[1]), Admin.apiKey);
+
+            //MessageBox.Show(data[0].ToString());
+        }
+
+
     }
 }
