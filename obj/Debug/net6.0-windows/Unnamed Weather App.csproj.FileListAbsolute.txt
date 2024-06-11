@@ -22,3 +22,5 @@ C:\Users\User\0 Files\1 School and education\Škola\SŠ\3.C\Informatika\1 Projek
 C:\Users\User\0 Files\1 School and education\Škola\SŠ\3.C\Informatika\1 Projekti\Unnamed Weather App\Unnamed-Weather-App\obj\Debug\net6.0-windows\Unnamed_Weather_App.InfoForm.resources
 C:\Users\User\0 Files\1 School and education\Škola\SŠ\3.C\Informatika\1 Projekti\Unnamed Weather App\Unnamed-Weather-App\obj\Debug\net6.0-windows\Unnamed_Weather_App.SettingsForm.resources
 C:\Users\User\0 Files\1 School and education\Škola\SŠ\3.C\Informatika\1 Projekti\Unnamed Weather App\Unnamed-Weather-App\obj\Debug\net6.0-windows\Unnamed_Weather_App.WeatherForm.resources
+C:\Users\User\0 Files\1 School and education\Škola\SŠ\3.C\Informatika\1 Projekti\Unnamed Weather App\Unnamed-Weather-App\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\User\0 Files\1 School and education\Škola\SŠ\3.C\Informatika\1 Projekti\Unnamed Weather App\Unnamed-Weather-App\obj\Debug\net6.0-windows\Unnamed Weather App.csproj.CopyComplete
