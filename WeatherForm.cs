@@ -21,11 +21,11 @@ namespace Unnamed_Weather_App
         private void cbCitySelect_SelectedIndexChanged(object sender, EventArgs e)
         {
             string[] cityData = cbCitySelect.Text.Split('|');
-            List<string> data = Admin.FetchWeatherData(int.Parse(cityData[1]), Admin.apiKey);
+            Root data = Admin.FetchWeatherData(int.Parse(cityData[1]), Admin.apiKey);
 
-            //MessageBox.Show(data[0].ToString());
+            tbTemperature.Text = data.list[0].main.temp + " K";
+            tbFeelsLike.Text = data.list[0].main.feels_like + " K";
+            tbMinMaxTemp.Text = data.list[0].main.temp_min + " / " + data.list[0].main.temp_max + " K";
         }
-
-
     }
 }

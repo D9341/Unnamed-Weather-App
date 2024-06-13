@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unnamed_Weather_App
 {
-    internal class Clouds
+    public class Clouds
     {
         public int all { get; set; }
     }
