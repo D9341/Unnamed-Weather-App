@@ -24,21 +24,6 @@ namespace Unnamed_Weather_App
         public static string forecastDataPath = "data/forecast.json";
         public static string user = "";
 
-        // Weather variables
-        public static float temperature = 0f;
-        public static float feelsLike = 0f;
-        public static float minTemperature = 0f;
-        public static float maxTemperature = 0f;
-        public static int pressure = 0;
-        public static int pressureSeaLevel = 0;
-        public static int pressureGroundLevel = 0;
-        public static int humidity = 0;
-        public static int clouds = 0;
-        public static int visibility = 0;
-        public static float windSpeed = 0f;
-        public static float windGusts = 0f;
-        public static float windDirection = 0f;
-
         // Account management
         public static bool LogIn(string username, string password) {
             List<string> usernames = new List<string>();
@@ -82,6 +67,11 @@ namespace Unnamed_Weather_App
                 if (user == usernames[i] && oldPassword == passwords[i]) {
                     if (password == repeatedPassword) { 
                         passwords[i] = password;
+                        
+                        StreamWriter writer = new StreamWriter(accountDataPath, false);
+                        for (i = 0; i < usernames.Count; i++) writer.WriteLine(usernames[i] + "|" + passwords[i]);
+                        writer.Close();
+                        
                         return 1; // Password change successful
                     } else {
                         return 0; // Password change unsuccessful because the new passwords don't match up
@@ -97,11 +87,13 @@ namespace Unnamed_Weather_App
             return File.ReadAllLines(localDataPath).ToList();
         }
 
-        public static void AddCity(string name, string id) {
+        public static bool AddCity(string name, string id) {
+            if (name == "" || id == "") return false;
+            
             StreamWriter writer = new StreamWriter(localDataPath, true);
             writer.WriteLine(name + "|" + id);
             writer.Close();
-            return;
+            return true;
         }
 
         // Weather data management
