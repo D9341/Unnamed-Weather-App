@@ -104,7 +104,7 @@
             this.cbVerify.Name = "cbVerify";
             this.cbVerify.Size = new System.Drawing.Size(200, 45);
             this.cbVerify.TabIndex = 12;
-            this.cbVerify.Text = "I have read and agree to \"Readme.pdf\"";
+            this.cbVerify.Text = "I have read and agree to the terms of service.";
             this.cbVerify.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cbVerify.UseVisualStyleBackColor = true;
             this.cbVerify.CheckedChanged += new System.EventHandler(this.cbVerify_CheckedChanged);
