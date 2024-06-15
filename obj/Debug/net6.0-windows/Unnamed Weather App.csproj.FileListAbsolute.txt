@@ -50,3 +50,29 @@ C:\Users\jjankoski\Source\Repos\Unnamed-Weather-App\obj\Debug\net6.0-windows\ref
 C:\Users\jjankoski\Source\Repos\Unnamed-Weather-App\obj\Debug\net6.0-windows\Unnamed Weather App.pdb
 C:\Users\jjankoski\Source\Repos\Unnamed-Weather-App\obj\Debug\net6.0-windows\Unnamed Weather App.genruntimeconfig.cache
 C:\Users\jjankoski\Source\Repos\Unnamed-Weather-App\obj\Debug\net6.0-windows\ref\Unnamed Weather App.dll
+C:\Users\User\source\repos\Unnamed-Weather-Ap\bin\Debug\net6.0-windows\Unnamed Weather App.exe
+C:\Users\User\source\repos\Unnamed-Weather-Ap\bin\Debug\net6.0-windows\Unnamed Weather App.deps.json
+C:\Users\User\source\repos\Unnamed-Weather-Ap\bin\Debug\net6.0-windows\Unnamed Weather App.runtimeconfig.json
+C:\Users\User\source\repos\Unnamed-Weather-Ap\bin\Debug\net6.0-windows\Unnamed Weather App.dll
+C:\Users\User\source\repos\Unnamed-Weather-Ap\bin\Debug\net6.0-windows\Unnamed Weather App.pdb
+C:\Users\User\source\repos\Unnamed-Weather-Ap\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed Weather App.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed_Weather_App.InfoForm.resources
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed_Weather_App.LoginForm.resources
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed_Weather_App.MenuForm.resources
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed_Weather_App.Properties.Resources.resources
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed_Weather_App.SettingsForm.resources
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed_Weather_App.SignupForm.resources
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed_Weather_App.StartupForm.resources
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed_Weather_App.WeatherForm.resources
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed Weather App.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed Weather App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed Weather App.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed Weather App.AssemblyInfo.cs
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed Weather App.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed Weather App.csproj.CopyComplete
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed Weather App.dll
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\refint\Unnamed Weather App.dll
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed Weather App.pdb
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\Unnamed Weather App.genruntimeconfig.cache
+C:\Users\User\source\repos\Unnamed-Weather-Ap\obj\Debug\net6.0-windows\ref\Unnamed Weather App.dll
