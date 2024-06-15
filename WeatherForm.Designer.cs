@@ -58,15 +58,15 @@
             this.lblCloudCover = new System.Windows.Forms.Label();
             this.lblHumidity = new System.Windows.Forms.Label();
             this.pbHumidity = new System.Windows.Forms.PictureBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.tbWindDirection = new System.Windows.Forms.TextBox();
+            this.tbWindGust = new System.Windows.Forms.TextBox();
+            this.tbWindSpeed = new System.Windows.Forms.TextBox();
+            this.pbWindDirection = new System.Windows.Forms.PictureBox();
+            this.pbWindGust = new System.Windows.Forms.PictureBox();
+            this.lblWindDirection = new System.Windows.Forms.Label();
+            this.lblWindGust = new System.Windows.Forms.Label();
+            this.lblWindSpeed = new System.Windows.Forms.Label();
+            this.pbWindSpeed = new System.Windows.Forms.PictureBox();
             this.bBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbWeather)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTemperature)).BeginInit();
@@ -78,9 +78,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbVisibility)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCloudCover)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbHumidity)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWindDirection)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWindGust)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWindSpeed)).BeginInit();
             this.SuspendLayout();
             // 
             // cbCitySelect
@@ -362,92 +362,92 @@
             this.pbHumidity.TabIndex = 20;
             this.pbHumidity.TabStop = false;
             // 
-            // textBox4
+            // tbWindDirection
             // 
-            this.textBox4.Location = new System.Drawing.Point(700, 480);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.PlaceholderText = "000";
-            this.textBox4.Size = new System.Drawing.Size(110, 32);
-            this.textBox4.TabIndex = 37;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbWindDirection.Location = new System.Drawing.Point(700, 480);
+            this.tbWindDirection.Name = "tbWindDirection";
+            this.tbWindDirection.PlaceholderText = "000";
+            this.tbWindDirection.Size = new System.Drawing.Size(110, 32);
+            this.tbWindDirection.TabIndex = 37;
+            this.tbWindDirection.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox5
+            // tbWindGust
             // 
-            this.textBox5.Location = new System.Drawing.Point(700, 405);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.PlaceholderText = "00.00 m/s";
-            this.textBox5.Size = new System.Drawing.Size(110, 32);
-            this.textBox5.TabIndex = 36;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbWindGust.Location = new System.Drawing.Point(700, 405);
+            this.tbWindGust.Name = "tbWindGust";
+            this.tbWindGust.PlaceholderText = "00.00 m/s";
+            this.tbWindGust.Size = new System.Drawing.Size(110, 32);
+            this.tbWindGust.TabIndex = 36;
+            this.tbWindGust.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox6
+            // tbWindSpeed
             // 
-            this.textBox6.Location = new System.Drawing.Point(700, 330);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.PlaceholderText = "00.00 m/s";
-            this.textBox6.Size = new System.Drawing.Size(110, 32);
-            this.textBox6.TabIndex = 35;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbWindSpeed.Location = new System.Drawing.Point(700, 330);
+            this.tbWindSpeed.Name = "tbWindSpeed";
+            this.tbWindSpeed.PlaceholderText = "00.00 m/s";
+            this.tbWindSpeed.Size = new System.Drawing.Size(110, 32);
+            this.tbWindSpeed.TabIndex = 35;
+            this.tbWindSpeed.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // pictureBox4
+            // pbWindDirection
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(483, 480);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 34;
-            this.pictureBox4.TabStop = false;
+            this.pbWindDirection.BackColor = System.Drawing.Color.Transparent;
+            this.pbWindDirection.Image = ((System.Drawing.Image)(resources.GetObject("pbWindDirection.Image")));
+            this.pbWindDirection.Location = new System.Drawing.Point(483, 480);
+            this.pbWindDirection.Name = "pbWindDirection";
+            this.pbWindDirection.Size = new System.Drawing.Size(32, 32);
+            this.pbWindDirection.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbWindDirection.TabIndex = 34;
+            this.pbWindDirection.TabStop = false;
             // 
-            // pictureBox5
+            // pbWindGust
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(483, 405);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 33;
-            this.pictureBox5.TabStop = false;
+            this.pbWindGust.BackColor = System.Drawing.Color.Transparent;
+            this.pbWindGust.Image = ((System.Drawing.Image)(resources.GetObject("pbWindGust.Image")));
+            this.pbWindGust.Location = new System.Drawing.Point(483, 405);
+            this.pbWindGust.Name = "pbWindGust";
+            this.pbWindGust.Size = new System.Drawing.Size(32, 32);
+            this.pbWindGust.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbWindGust.TabIndex = 33;
+            this.pbWindGust.TabStop = false;
             // 
-            // label4
+            // lblWindDirection
             // 
-            this.label4.Location = new System.Drawing.Point(515, 480);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(185, 32);
-            this.label4.TabIndex = 32;
-            this.label4.Text = "Wind direction:";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblWindDirection.Location = new System.Drawing.Point(515, 480);
+            this.lblWindDirection.Name = "lblWindDirection";
+            this.lblWindDirection.Size = new System.Drawing.Size(185, 32);
+            this.lblWindDirection.TabIndex = 32;
+            this.lblWindDirection.Text = "Wind direction:";
+            this.lblWindDirection.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label5
+            // lblWindGust
             // 
-            this.label5.Location = new System.Drawing.Point(515, 405);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(185, 32);
-            this.label5.TabIndex = 31;
-            this.label5.Text = "Wind gusts:";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblWindGust.Location = new System.Drawing.Point(515, 405);
+            this.lblWindGust.Name = "lblWindGust";
+            this.lblWindGust.Size = new System.Drawing.Size(185, 32);
+            this.lblWindGust.TabIndex = 31;
+            this.lblWindGust.Text = "Wind gusts:";
+            this.lblWindGust.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label6
+            // lblWindSpeed
             // 
-            this.label6.Location = new System.Drawing.Point(515, 330);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(185, 32);
-            this.label6.TabIndex = 30;
-            this.label6.Text = "Wind speed:";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblWindSpeed.Location = new System.Drawing.Point(515, 330);
+            this.lblWindSpeed.Name = "lblWindSpeed";
+            this.lblWindSpeed.Size = new System.Drawing.Size(185, 32);
+            this.lblWindSpeed.TabIndex = 30;
+            this.lblWindSpeed.Text = "Wind speed:";
+            this.lblWindSpeed.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // pictureBox6
+            // pbWindSpeed
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(483, 330);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 29;
-            this.pictureBox6.TabStop = false;
+            this.pbWindSpeed.BackColor = System.Drawing.Color.Transparent;
+            this.pbWindSpeed.Image = ((System.Drawing.Image)(resources.GetObject("pbWindSpeed.Image")));
+            this.pbWindSpeed.Location = new System.Drawing.Point(483, 330);
+            this.pbWindSpeed.Name = "pbWindSpeed";
+            this.pbWindSpeed.Size = new System.Drawing.Size(32, 32);
+            this.pbWindSpeed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbWindSpeed.TabIndex = 29;
+            this.pbWindSpeed.TabStop = false;
             // 
             // bBack
             // 
@@ -458,6 +458,7 @@
             this.bBack.TabIndex = 38;
             this.bBack.Text = "Back to menu";
             this.bBack.UseVisualStyleBackColor = true;
+            this.bBack.Click += new System.EventHandler(this.bBack_Click);
             // 
             // WeatherForm
             // 
@@ -467,15 +468,15 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(882, 553);
             this.Controls.Add(this.bBack);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.tbWindDirection);
+            this.Controls.Add(this.tbWindGust);
+            this.Controls.Add(this.tbWindSpeed);
+            this.Controls.Add(this.pbWindDirection);
+            this.Controls.Add(this.pbWindGust);
+            this.Controls.Add(this.lblWindDirection);
+            this.Controls.Add(this.lblWindGust);
+            this.Controls.Add(this.lblWindSpeed);
+            this.Controls.Add(this.pbWindSpeed);
             this.Controls.Add(this.tbVisibility);
             this.Controls.Add(this.tbCloudCover);
             this.Controls.Add(this.tbHumidity);
@@ -523,9 +524,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbVisibility)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCloudCover)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbHumidity)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWindDirection)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWindGust)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWindSpeed)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -562,15 +563,15 @@
         private Label lblCloudCover;
         private Label lblHumidity;
         private PictureBox pbHumidity;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox5;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private PictureBox pictureBox6;
+        private TextBox tbWindDirection;
+        private TextBox tbWindGust;
+        private TextBox tbWindSpeed;
+        private PictureBox pbWindDirection;
+        private PictureBox pbWindGust;
+        private Label lblWindDirection;
+        private Label lblWindGust;
+        private Label lblWindSpeed;
+        private PictureBox pbWindSpeed;
         private Button bBack;
     }
 }
