@@ -16,5 +16,12 @@ namespace Unnamed_Weather_App
         {
             InitializeComponent();
         }
+
+        private void bBack_Click(object sender, EventArgs e)
+        {
+            MenuForm form = new MenuForm();
+            form.Show();
+            Close();
+        }
     }
 }
