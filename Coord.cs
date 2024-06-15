@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unnamed_Weather_App
 {
-    internal class Coord
+    public class Coord
     {
         public double lat { get; set; }
         public double lon { get; set; }

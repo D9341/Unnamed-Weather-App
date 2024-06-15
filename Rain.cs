@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Unnamed_Weather_App
 {
-    internal class Rain
+    public class Rain
     {
         [JsonProperty("3h")]
         public double _3h { get; set; }

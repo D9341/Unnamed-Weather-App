@@ -105,20 +105,16 @@ namespace Unnamed_Weather_App
         }
 
         // Weather data management
-        public static List<string> FetchWeatherData(int _cityID, string _apiKey) {
+        public static Root FetchWeatherData(int _cityID, string _apiKey) {
             WebClient client = new WebClient();
             client.DownloadFile("https://api.openweathermap.org/data/2.5/forecast?id=" + _cityID + "&appid=" + _apiKey, forecastDataPath);
 
             StreamReader reader = new StreamReader(forecastDataPath);
             string json = reader.ReadToEnd();
             reader.Close();
+            Root data = JsonConvert.DeserializeObject<Root>(json);
 
-            /*List<Main> mainData = JsonConvert.DeserializeObject<List<Main>>(json);
-            List<Clouds> cloudData = JsonConvert.DeserializeObject<List<Clouds>>(json);
-            List<List> visibilityData = JsonConvert.DeserializeObject<List<List>>(json);
-            List<Wind> windData = JsonConvert.DeserializeObject<List<Wind>>(json);*/
-
-            return new List<string>();
+            return data;
         }
     }
 }

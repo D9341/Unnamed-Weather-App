@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unnamed_Weather_App
 {
-    internal class Main
+    public class Main
     {
         public double temp { get; set; }
         public double feels_like { get; set; }

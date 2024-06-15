@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Unnamed_Weather_App
 {
-    internal class City
+    public class City
     {
         public int id { get; set; }
         public string name { get; set; }
